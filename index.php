@@ -21,9 +21,9 @@ include_once './config/webinfo.php';
 include_once './config/settings.php';
 include_once './ops/auth.php'; 
   //  echo "<script>setTimeout(function() { window.location.href='http://localhost/triophore/$default';}, 100);</script>";
-//header("location: https://projectqms.azurewebsites.net/$default");
+header("location: https://projectqms.azurewebsites.net/$default");
                                //exit();
-    echo "dashboard view";
+   // echo "dashboard view";
 });
 
 
