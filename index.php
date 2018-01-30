@@ -63,7 +63,7 @@ $root = root;
                 else
                 {
 
-                    include_once  $_SERVER['DOCUMENT_ROOT'].root."/view/$r.php"; 
+                    include_once  $_SERVER['DOCUMENT_ROOT']."/view/$r.php"; 
                     exit();
                 }
                  //print_r($routes);
