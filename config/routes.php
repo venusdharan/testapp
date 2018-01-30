@@ -1,6 +1,6 @@
 <?php
 $use_auth = true;
-$default = "/dashboard";
+$default = "dashboard";
 $routes = array(
    "dashboard" => array(
     "ops"  => "dashboard",
