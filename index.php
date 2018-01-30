@@ -21,7 +21,7 @@ include_once './config/webinfo.php';
 include_once './config/settings.php';
 include_once './ops/auth.php'; 
   //  echo "<script>setTimeout(function() { window.location.href='http://localhost/triophore/$default';}, 100);</script>";
-header("location: http://localhost/triophore/$default");
+header("location: https://projectqms.azurewebsites.net/$default");
                                //exit();
 });
 
@@ -55,7 +55,7 @@ $root = root;
                    {
 
                        // echo "<script>setTimeout(function() { window.location.href='http://localhost/triophore/logout';}, 100);</script>";
-                        header("location: http://localhost/triophore/logout");
+                        header("location: https://projectqms.azurewebsites.net/logout");
                         exit();
                    }
                 }
